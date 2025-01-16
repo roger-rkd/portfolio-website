@@ -22,6 +22,12 @@
     .section-container {
         display: block;
     }
+
+    .section__pic-container {
+        width: auto;
+        height: 66vw;
+        justify-content: center;
+    }
     .arrow {
         display: none;
     }
@@ -31,6 +37,9 @@
     }
     section {
         margin: 0 5%;
+    }
+    .contact-info-container {
+        margin: 5;
     }
     .section__pic-container {
         width: 275px;
@@ -87,7 +96,7 @@
     }
     .section__pic-container {
         width: auto;
-        height: 56vw;
+        height: 66vw;
         justify-content: center;
     }
     .section__text__p2 {
