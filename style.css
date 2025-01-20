@@ -357,6 +357,11 @@ article .icon{
     cursor: default;
 }
 
+.stars i {
+    color: #ffc107; /* Gold color */
+    font-size: 25px; /* Adjust star size */
+}
+
 /* PROJECTS SECTION */
 
 #projects {
