@@ -169,21 +169,6 @@ const revealObs = new IntersectionObserver((entries) => {
 document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
 
 /* ============================================
-   CONTACT FORM
-   ============================================ */
-document.getElementById('contactForm')?.addEventListener('submit', e => {
-  e.preventDefault();
-  const btn = e.target.querySelector('button[type="submit"]');
-  btn.textContent = 'Message Sent';
-  btn.style.background = 'linear-gradient(135deg,#10b981,#059669)';
-  setTimeout(() => {
-    btn.textContent = 'Send Message';
-    btn.style.background = '';
-    e.target.reset();
-  }, 3000);
-});
-
-/* ============================================
    MOBILE MENU
    ============================================ */
 const hamburger = document.getElementById('hamburger');
