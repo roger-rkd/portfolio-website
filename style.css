@@ -1014,6 +1014,11 @@ section { position: relative; z-index: 2; }
   filter: invert(1) brightness(0.65);
 }
 
+.cert-icon--inline {
+  background: rgba(0,245,212,0.06);
+  border-color: rgba(0,245,212,0.18);
+}
+
 .cert-body { flex: 1; min-width: 0; }
 
 .cert-body h4 {
